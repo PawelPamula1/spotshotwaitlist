@@ -11,7 +11,9 @@ const JoinCTA = () => {
           Be the first to know when SpotShot is ready for launch.
         </p>
 
-        <JoinButton />
+        <div className="flex justify-center">
+          <JoinButton />
+        </div>
       </div>
     </section>
   );
