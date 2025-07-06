@@ -33,7 +33,8 @@ const JoinButton = () => {
         setError(data.error?.message || "Something went wrong.");
       }
     } catch (err) {
-      setError("Failed to connect to the server.");
+      setError("err");
+      console.log(err);
     }
   };
 
@@ -41,7 +42,7 @@ const JoinButton = () => {
     <form onSubmit={handleSubmit} className="mt-8 w-full max-w-xl mx-auto">
       {submitted ? (
         <p className="w-full px-4 py-3 text-center rounded-xl bg-[#fff] text-[#333]">
-          Thanks! You're on the list.
+          Thanks! You&apos;re on the list.
         </p>
       ) : (
         <div className="bg-[#f2eafa] p-1 rounded-xl">
