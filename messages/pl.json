@@ -1,0 +1,46 @@
+{
+  "HomePage": {
+    "title": "Odkrywaj kultowe miejsca do zdjęć na całym świecie",
+    "description": "Dołącz do listy oczekujących i jako pierwszy poznaj ukryte perełki na swoją kolejną podróż"
+  },
+  "JoinForm": {
+    "placeholder": "Twój adres e-mail",
+    "button": "Dołącz do listy oczekujących",
+    "success": "Dzięki! Jesteś na liście.",
+    "error": {
+      "generic": "Coś poszło nie tak. Spróbuj ponownie."
+    }
+  },
+  "Problem": {
+    "headline1": "Jesteś na wakacjach. Wyglądasz świetnie. Ale…",
+    "headline2": "gdzie zrobić idealne zdjęcie?",
+    "description": "Poświęciłeś godziny na wybór idealnego stroju. Jesteś w nowym mieście, pełen energii. Ale gdy przychodzi moment na to jedno wyjątkowe zdjęcie… nie wiesz, dokąd pójść?"
+  },
+  "AboutApp": {
+    "title": "SpotShot",
+    "subtitle": "Aplikacja do znajdowania miejsc na zdjęcia",
+    "p1": "SpotShot został stworzony przez podróżników dla podróżników.",
+    "p2": "Odkrywaj najbardziej fotogeniczne miejsca w miastach na całym świecie – od kultowych punktów po ukryte perełki znane tylko lokalnym mieszkańcom.",
+    "p3": "Teraz masz to wszystko na jednej mapie.",
+    "cta": "🔒 Dołącz do listy oczekujących i pomóż nam stworzyć najpiękniejszą mapę zdjęć z podróży – miejsce po miejscu."
+  },
+  "HowItWorks": {
+    "title": "Jak to działa?",
+    "step1": {
+      "title": "Znajdź miejsca na zdjęcia na mapie",
+      "description": "Odkrywaj swoją okolicę lub planuj podróż, przeglądając oznaczone lokalizacje dodane przez podróżników z całego świata."
+    },
+    "step2": {
+      "title": "Zobacz prawdziwe zdjęcia",
+      "description": "Zainspiruj się zdjęciami wykonanymi przez społeczność w każdej lokalizacji. Wiedz dokładnie, gdzie i co możesz sfotografować."
+    },
+    "step3": {
+      "title": "Zapisuj i planuj zdjęcia",
+      "description": "Zapisuj ulubione miejsca na własnej liście i twórz plan zdjęciowy. Już nigdy nie przegapisz świetnej miejscówki."
+    }
+  },
+  "JoinCTA": {
+    "title": "Join the waitlist",
+    "subtitle": "Be the first to know when SpotShot is ready for launch."
+  }
+}

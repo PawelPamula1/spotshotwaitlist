@@ -1,32 +1,34 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
-
-const steps = [
-  {
-    title: "Find Photo Spots on the Map",
-    description:
-      "Explore your location or plan your trip by browsing geotagged spots added by travelers around the world.",
-    image: "/howitworks/photo1.png",
-  },
-  {
-    title: "See Real Photo Examples",
-    description:
-      "Get inspired by real photos taken by the community in each spot. Know exactly where to go and what kind of shots to expect.",
-    image: "/howitworks/photo2.png",
-  },
-  {
-    title: "Save & Plan Your Shots",
-    description:
-      "Save your favorite spots to a personal list and create your own shooting itinerary. Never miss a great location again.",
-    image: "/howitworks/photo3.png",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const HowItWorks = () => {
+  const t = useTranslations("HowItWorks");
+
+  const steps = [
+    {
+      title: t("step1.title"),
+      description: t("step1.description"),
+      image: "/howitworks/photo1.png",
+    },
+    {
+      title: t("step2.title"),
+      description: t("step2.description"),
+      image: "/howitworks/photo2.png",
+    },
+    {
+      title: t("step3.title"),
+      description: t("step3.description"),
+      image: "/howitworks/photo3.png",
+    },
+  ];
+
   return (
     <section className="bg-[#f1f5f4] py-16 px-6 text-center">
       <h2 className="text-3xl lg:text-4xl font-medium text-[#4a5c6a] mb-14">
-        How it Works?
+        {t("title")}
       </h2>
 
       <div className="flex flex-col gap-16 items-center lg:flex-row lg:justify-center lg:items-start lg:gap-24 max-w-7xl mx-auto">

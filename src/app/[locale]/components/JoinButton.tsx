@@ -1,8 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const JoinButton = () => {
+  const t = useTranslations("JoinForm");
+
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -30,10 +33,10 @@ const JoinButton = () => {
         setSubmitted(true);
       } else {
         const data = await res.json();
-        setError(data.error?.message || "Something went wrong.");
+        setError(data.error?.message || t("error.generic"));
       }
     } catch (err) {
-      setError("err");
+      setError(t("error.generic"));
       console.log(err);
     }
   };
@@ -42,14 +45,14 @@ const JoinButton = () => {
     <form onSubmit={handleSubmit} className="mt-8 w-full max-w-xl mx-auto">
       {submitted ? (
         <p className="w-full px-4 py-3 text-center rounded-xl bg-[#fff] text-[#333]">
-          Thanks! You&apos;re on the list.
+          {t("success")}
         </p>
       ) : (
         <div className="bg-[#f2eafa] p-1 rounded-xl">
           <div className="flex flex-col md:flex-row items-stretch">
             <input
               type="email"
-              placeholder="Your Email"
+              placeholder={t("placeholder")}
               className="w-full px-4 py-3 text-center md:text-left md:rounded-bl-xl bg-[#f2eafa] text-[#333] placeholder:text-gray-500 outline-none"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -59,7 +62,7 @@ const JoinButton = () => {
               type="submit"
               className="w-full md:w-60 py-3 px-6 bg-[#4a5c6a] text-white font-medium rounded-xl md:rounded-r-xl"
             >
-              Join the waitlist
+              {t("button")}
             </button>
           </div>
           {error && (

@@ -1,0 +1,46 @@
+{
+  "HomePage": {
+    "title": "Find Iconic Photo Spots Anywhere in the World",
+    "description": "Join the waitlist and be the first to explore hidden gems for your next trip"
+  },
+  "JoinForm": {
+    "placeholder": "Your Email",
+    "button": "Join the waitlist",
+    "success": "Thanks! You're on the list.",
+    "error": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "Problem": {
+    "headline1": "You’re on vacation. You look great. But…",
+    "headline2": "where’s the perfect spot for a photo?",
+    "description": "You’ve spent hours picking the perfect outfit. You’re in a new city, feeling alive. But when it’s time to take that one great photo… you don’t know where to go?"
+  },
+  "AboutApp": {
+    "title": "SpotShot",
+    "subtitle": "The Travel Photo Spotting App",
+    "p1": "SpotShot is built by travelers, for travelers.",
+    "p2": "Discover the most photogenic places in cities around the world — from iconic landmarks to hidden gems only locals know.",
+    "p3": "Now you’ve got it all on one map.",
+    "cta": "🔒 Join the waitlist and help us build the world’s most beautiful travel photo map – one spot at a time."
+  },
+  "HowItWorks": {
+    "title": "How it Works?",
+    "step1": {
+      "title": "Find Photo Spots on the Map",
+      "description": "Explore your location or plan your trip by browsing geotagged spots added by travelers around the world."
+    },
+    "step2": {
+      "title": "See Real Photo Examples",
+      "description": "Get inspired by real photos taken by the community in each spot. Know exactly where to go and what kind of shots to expect."
+    },
+    "step3": {
+      "title": "Save & Plan Your Shots",
+      "description": "Save your favorite spots to a personal list and create your own shooting itinerary. Never miss a great location again."
+    }
+  },
+  "JoinCTA": {
+    "title": "Join the waitlist",
+    "subtitle": "Be the first to know when SpotShot is ready for launch."
+  }
+}
