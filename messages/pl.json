@@ -27,20 +27,33 @@
   "HowItWorks": {
     "title": "Jak to działa?",
     "step1": {
-      "title": "Znajdź miejsca na zdjęcia na mapie",
-      "description": "Odkrywaj swoją okolicę lub planuj podróż, przeglądając oznaczone lokalizacje dodane przez podróżników z całego świata."
+      "title": "Odkrywaj najlepsze miejscówki",
+      "description": "Przeglądaj listę polecanych miejsc i szybko zobacz, co warto sfotografować w okolicy — od klimatycznych uliczek po punkty widokowe.",
+      "alt": "Ekran listy miejsc — Explore Spots"
     },
     "step2": {
-      "title": "Zobacz prawdziwe zdjęcia",
-      "description": "Zainspiruj się zdjęciami wykonanymi przez społeczność w każdej lokalizacji. Wiedz dokładnie, gdzie i co możesz sfotografować."
+      "title": "Przeglądaj mapę i nawiguj",
+      "description": "Otwórz pełnoekranową mapę, aby zlokalizować spoty i łatwo zaplanować trasę. Jednym kliknięciem przejdziesz do nawigacji.",
+      "alt": "Pełnoekranowa mapa z lokalizacjami — Full Map"
     },
     "step3": {
-      "title": "Zapisuj i planuj zdjęcia",
-      "description": "Zapisuj ulubione miejsca na własnej liście i twórz plan zdjęciowy. Już nigdy nie przegapisz świetnej miejscówki."
+      "title": "Poznaj szczegóły miejsca",
+      "description": "Zobacz zdjęcie, opis, wskazówki fotograficzne oraz współrzędne. Wiesz dokładnie gdzie stanąć i co uchwycić.",
+      "alt": "Szczegóły miejsca — Spot Details"
+    },
+    "step4": {
+      "title": "Dodaj własny spot",
+      "description": "Udostępnij swoje odkrycia: dodaj zdjęcie, opis, miasto i kraj. Pomóż innym robić lepsze zdjęcia w świetnych miejscach.",
+      "alt": "Formularz dodawania spotu — Add Spot"
+    },
+    "step5": {
+      "title": "Zapisuj ulubione",
+      "description": "Zapisuj najciekawsze lokalizacje, aby mieć je zawsze pod ręką i szybko do nich wrócić podczas kolejnych wypraw.",
+      "alt": "Lista zapisanych miejsc — Saved Spots"
     }
   },
   "JoinCTA": {
-    "title": "Join the waitlist",
-    "subtitle": "Be the first to know when SpotShot is ready for launch."
+    "title": "Pomóż zbudować największą mapę miejsc do zdjęć na świecie!",
+    "subtitle": "Dołącz do listy oczekujących i stań się częścią społeczności dodającej pierwsze miejscówki przed startem."
   }
 }

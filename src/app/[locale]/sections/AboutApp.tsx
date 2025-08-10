@@ -33,7 +33,7 @@ const AboutApp = () => {
           </div>
           <div className="h-[400px] w-160 ">
             <Image
-              src="/about/mockup.png"
+              src="/about/full-map.png"
               alt="App mockup"
               fill
               className="object-contain"

@@ -25,22 +25,35 @@
     "cta": "🔒 Join the waitlist and help us build the world’s most beautiful travel photo map – one spot at a time."
   },
   "HowItWorks": {
-    "title": "How it Works?",
+    "title": "How it Works",
     "step1": {
-      "title": "Find Photo Spots on the Map",
-      "description": "Explore your location or plan your trip by browsing geotagged spots added by travelers around the world."
+      "title": "Discover Top Photo Spots",
+      "description": "Browse curated locations and instantly see what’s worth shooting nearby—from cozy alleys to scenic viewpoints.",
+      "alt": "Explore list of photo spots — Explore Spots screen"
     },
     "step2": {
-      "title": "See Real Photo Examples",
-      "description": "Get inspired by real photos taken by the community in each spot. Know exactly where to go and what kind of shots to expect."
+      "title": "Use the Full Map & Navigate",
+      "description": "Open the full-screen map to locate spots and plan your route. Start navigation in one tap.",
+      "alt": "Full-screen map with locations — Full Map"
     },
     "step3": {
-      "title": "Save & Plan Your Shots",
-      "description": "Save your favorite spots to a personal list and create your own shooting itinerary. Never miss a great location again."
+      "title": "View Detailed Spot Info",
+      "description": "See the photo, description, shooting tips, and coordinates. Know exactly where to stand and what to capture.",
+      "alt": "Spot details view — Spot Details"
+    },
+    "step4": {
+      "title": "Add Your Own Spots",
+      "description": "Share your discoveries: upload a photo, write a description, add city and country, and help others shoot better photos.",
+      "alt": "Add spot form — Add Spot"
+    },
+    "step5": {
+      "title": "Save Your Favourites",
+      "description": "Bookmark the most interesting locations to revisit them quickly on your next trips.",
+      "alt": "Saved spots list — Saved Spots"
     }
   },
   "JoinCTA": {
-    "title": "Join the waitlist",
-    "subtitle": "Be the first to know when SpotShot is ready for launch."
+    "title": "Help Build the World's Biggest Photo Spot Map!",
+    "subtitle": "Join the waitlist and be part of the community adding the very first spots before launch."
   }
 }
