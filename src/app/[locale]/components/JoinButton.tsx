@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
+import { posthog } from "posthog-js";
 
 const JoinButton = () => {
   const t = useTranslations("JoinForm");
@@ -31,6 +32,7 @@ const JoinButton = () => {
 
       if (res.ok) {
         setSubmitted(true);
+        posthog.capture("New Email", { property: email });
       } else {
         const data = await res.json();
         setError(data.error?.message || t("error.generic"));
