@@ -21,7 +21,7 @@ const Problem = () => {
           <div className="flex justify-between w-full space-x-4">
             <div className="relative w-1/2 h-40">
               <Image
-                src="/problem/photo1.png"
+                src="/problem/sagrada.jpg"
                 alt="Travel photo 1"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -49,7 +49,7 @@ const Problem = () => {
           <div className="flex justify-between w-full space-x-4">
             <div className="relative w-1/2 h-40">
               <Image
-                src="/problem/photo4.png"
+                src="/problem/dubrovnik.jpg"
                 alt="Travel photo 4"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -57,7 +57,7 @@ const Problem = () => {
             </div>
             <div className="relative w-1/2 h-40">
               <Image
-                src="/problem/photo5.png"
+                src="/problem/canary_wharf.jpg"
                 alt="Travel photo 5"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -71,7 +71,7 @@ const Problem = () => {
           <div className="space-y-6">
             <div className="relative w-full h-60">
               <Image
-                src="/problem/photo1.png"
+                src="/problem/sagrada.jpg"
                 alt="Travel photo 1"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -79,7 +79,7 @@ const Problem = () => {
             </div>
             <div className="relative w-full h-60">
               <Image
-                src="/problem/photo4.png"
+                src="/problem/dubrovnik.jpg"
                 alt="Travel photo 4"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -109,7 +109,7 @@ const Problem = () => {
             </div>
             <div className="relative w-full h-60">
               <Image
-                src="/problem/photo5.png"
+                src="/problem/canary_wharf.jpg"
                 alt="Travel photo 5"
                 fill
                 className="object-cover rounded-lg shadow-md"
