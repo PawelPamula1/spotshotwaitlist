@@ -4,12 +4,14 @@
     "description": "Dołącz do listy oczekujących i jako pierwszy poznaj ukryte perełki na swoją kolejną podróż"
   },
   "JoinForm": {
-    "placeholder": "Twój adres e-mail",
-    "button": "Dołącz do listy oczekujących",
-    "success": "Dzięki! Jesteś na liście.",
+    "placeholder": "Wpisz swój e-mail",
+    "button": "Zapisz się",
+    "success": "Dziękujemy! Jesteś na liście 🎉",
     "error": {
-      "generic": "Coś poszło nie tak. Spróbuj ponownie."
-    }
+      "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+      "accept": "Proszę zaakceptować Regulamin i Politykę prywatności."
+    },
+    "consent": "Zgadzam się z <terms>Regulaminem</terms> oraz <privacy>Polityką prywatności</privacy>."
   },
   "Problem": {
     "headline1": "Jesteś na wakacjach. Wyglądasz świetnie. Ale…",
@@ -55,5 +57,123 @@
   "JoinCTA": {
     "title": "Pomóż zbudować największą mapę miejsc do zdjęć na świecie!",
     "subtitle": "Dołącz do listy oczekujących i stań się częścią społeczności dodającej pierwsze miejscówki przed startem."
+  },
+  "Privacy": {
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 23 sierpnia 2025",
+    "intro": "Ta Polityka prywatności wyjaśnia, w jaki sposób PhotoSpots zbiera, wykorzystuje i chroni dane osobowe — w tym podczas zapisu na listę oczekujących oraz korzystania z aplikacji mobilnej.",
+    "who": {
+      "title": "Administrator danych",
+      "body": "Administratorem danych jest PhotoSpots (projekt osobisty Pawła Pamuły). W sprawach prywatności napisz na: pawelpamula003@gmail.com."
+    },
+    "what": {
+      "title": "Jakie dane zbieramy",
+      "email": "Adres e-mail — gdy dołączasz do listy oczekujących, aby otrzymywać aktualizacje.",
+      "account": "Dane konta (aplikacja) — e-mail, nazwa użytkownika, profil/avatar, jeśli zakładasz konto.",
+      "content": "Treści użytkownika — dodawane spoty (lokalizacja, opis, zdjęcia). Treści mogą być publiczne w aplikacji.",
+      "location": "Przybliżona lokalizacja — tylko jeśli podasz ją przy tworzeniu spota.",
+      "tech": "Dane techniczne — podstawowa analityka przez PostHog oraz standardowe logi serwera w celach bezpieczeństwa."
+    },
+    "why": {
+      "title": "Cele przetwarzania danych",
+      "provide": "Świadczenie usługi (lista oczekujących, konto, zapisywanie i wyświetlanie spotów).",
+      "updates": "Wysyłanie informacji o rozwoju aplikacji, jeśli dołączysz do listy oczekujących.",
+      "security": "Utrzymanie bezpieczeństwa i zapobieganie nadużyciom.",
+      "improve": "Usprawnianie produktu i doświadczenia użytkownika (analityka zagregowana)."
+    },
+    "legal": {
+      "title": "Podstawy prawne (RODO)",
+      "consent": "Zgoda — w przypadku e-maili z listy oczekujących oraz opcjonalnej analityki, gdzie jest wymagana.",
+      "contract": "Wykonanie umowy — przetwarzanie niezbędne do świadczenia funkcji aplikacji, z których korzystasz.",
+      "legit": "Uzasadniony interes — bezpieczeństwo, zapobieganie nadużyciom oraz rozwój produktu."
+    },
+    "processors": {
+      "title": "Podmioty przetwarzające i odbiorcy danych",
+      "supabase": "Supabase — uwierzytelnianie, baza danych i storage.",
+      "cloudinary": "Cloudinary — hostowanie i optymalizacja zdjęć użytkowników.",
+      "posthog": "PostHog — prywatnościowa analityka strony/aplikacji.",
+      "note": "Nie sprzedajemy danych osobowych. Podmioty przetwarzające działają w naszym imieniu na podstawie umów powierzenia."
+    },
+    "retention": {
+      "title": "Okres przechowywania danych",
+      "body": "Przechowujemy dane osobowe tak długo, jak to konieczne do świadczenia usługi lub do czasu zgłoszenia prośby o usunięcie. E-maile z listy oczekujących są przechowywane do momentu wypisania lub prośby o usunięcie. Dane konta i treści można usunąć przy usunięciu konta (z zastrzeżeniem terminów kopii zapasowych/archiwów)."
+    },
+    "rights": {
+      "title": "Twoje prawa",
+      "access": "Dostęp do swoich danych i uzyskanie kopii.",
+      "rectify": "Sprostowanie nieprawidłowych danych.",
+      "delete": "Usunięcie danych („prawo do bycia zapomnianym”).",
+      "restrict": "Ograniczenie lub sprzeciw wobec określonych form przetwarzania.",
+      "portability": "Przenoszenie danych.",
+      "withdraw": "Wycofanie zgody w dowolnym momencie (np. wypis z e-maili).",
+      "complaint": "Złożenie skargi do organu nadzorczego.",
+      "contact": "Aby skorzystać ze swoich praw, napisz na adres: pawelpamula003@gmail.com."
+    },
+    "transfers": {
+      "title": "Przekazywanie danych za granicę",
+      "body": "Niektórzy dostawcy mogą przechowywać dane poza Twoim krajem. W razie potrzeby opieramy się na odpowiednich zabezpieczeniach (np. standardowe klauzule umowne)."
+    },
+    "security": {
+      "title": "Bezpieczeństwo",
+      "body": "Stosujemy rozsądne środki techniczne i organizacyjne, aby chronić Twoje dane. Żaden system nie jest w 100% bezpieczny, ale minimalizujemy ryzyko (np. kontrola dostępu, zasada najmniejszych uprawnień, szyfrowanie w transporcie)."
+    },
+    "children": {
+      "title": "Dzieci",
+      "body": "PhotoSpots nie jest kierowane do osób poniżej 16 roku życia. Jeśli uważasz, że dziecko przekazało nam dane, skontaktuj się z nami w celu ich usunięcia."
+    },
+    "changes": {
+      "title": "Zmiany w polityce",
+      "body": "Możemy okresowo aktualizować tę politykę. Zmiany opublikujemy tutaj i zaktualizujemy powyższą datę."
+    },
+    "questions": "Pytania? Napisz na: pawelpamula003@gmail.com."
+  },
+  "Terms": {
+    "title": "Regulamin",
+    "lastUpdated": "Ostatnia aktualizacja: 23 sierpnia 2025",
+    "intro": "Niniejszy regulamin określa zasady korzystania z serwisu internetowego i aplikacji mobilnej PhotoSpots. Korzystając z serwisu, akceptujesz ten regulamin. Jeśli się nie zgadzasz, nie korzystaj z PhotoSpots.",
+    "service": {
+      "title": "Opis usługi",
+      "body": "PhotoSpots pomaga użytkownikom odkrywać i zapisywać miejsca fotograficzne. Użytkownicy mogą dodawać lokalizacje, opisy i zdjęcia widoczne dla innych w aplikacji."
+    },
+    "eligibility": {
+      "title": "Wymagania i konta",
+      "age": "Musisz mieć ukończone 16 lat, aby korzystać z serwisu.",
+      "account": "Jesteś odpowiedzialny za swoje konto i bezpieczeństwo danych logowania.",
+      "delete": "Możesz usunąć swoje konto w dowolnym momencie."
+    },
+    "content": {
+      "title": "Treści użytkowników i licencja",
+      "ownership": "Zachowujesz prawa autorskie do zdjęć i treści, które przesyłasz.",
+      "license": "Udzielasz PhotoSpots niewyłącznej, ogólnoświatowej licencji na hostowanie, wyświetlanie i dystrybucję Twoich treści wyłącznie w celu działania i ulepszania usługi.",
+      "responsibility": "Musisz posiadać prawa do treści, które przesyłasz, i upewnić się, że nie naruszają one przepisów ani praw osób trzecich.",
+      "removal": "Możemy usuwać treści naruszające niniejszy regulamin lub przepisy prawa, albo po otrzymaniu uzasadnionego zgłoszenia naruszenia."
+    },
+    "prohibited": {
+      "title": "Zabronione działania",
+      "illegal": "Publikowanie treści nielegalnych, szkodliwych, obraźliwych, naruszających prawa lub wprowadzających w błąd.",
+      "security": "Próby skanowania, włamywania się lub zakłócania działania serwisu albo kont innych użytkowników.",
+      "scraping": "Scrapowanie lub masowe pobieranie danych bez zgody."
+    },
+    "safety": {
+      "title": "Bezpieczeństwo i odpowiedzialność",
+      "body": "Lokalizacje pokazane w PhotoSpots mogą obejmować tereny publiczne lub prywatne o różnym stopniu dostępności. To Ty jesteś wyłącznie odpowiedzialny za swoje bezpieczeństwo i przestrzeganie lokalnych przepisów. PhotoSpots nie gwarantuje dostępu, bezpieczeństwa ani dokładności lokalizacji."
+    },
+    "ip": {
+      "title": "Własność intelektualna",
+      "body": "PhotoSpots oraz powiązane logotypy, znaki towarowe i oprogramowanie należą do odpowiednich właścicieli praw. Niniejszy regulamin nie przyznaje Ci żadnych praw do korzystania z naszych znaków towarowych poza niezbędnym zakresem korzystania z serwisu."
+    },
+    "disclaimer": {
+      "title": "Zastrzeżenia i ograniczenie odpowiedzialności",
+      "body": "Serwis jest udostępniany „tak jak jest”, bez żadnych gwarancji. W maksymalnym zakresie dozwolonym przez prawo PhotoSpots nie ponosi odpowiedzialności za szkody pośrednie, przypadkowe, szczególne, wynikowe ani karne, ani za utratę danych, zysków lub reputacji."
+    },
+    "changes": {
+      "title": "Zmiany w usłudze i regulaminie",
+      "body": "Możemy modyfikować lub zakończyć działanie części serwisu w dowolnym momencie. Regulamin może być aktualizowany od czasu do czasu. Zmiany opublikujemy tutaj i zaktualizujemy powyższą datę."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Masz pytania dotyczące regulaminu? Napisz na adres: pawelpamula003@gmail.com."
+    },
+    "footer": "Korzystając dalej z PhotoSpots, akceptujesz niniejszy regulamin."
   }
 }

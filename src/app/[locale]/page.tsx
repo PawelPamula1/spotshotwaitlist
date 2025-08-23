@@ -24,6 +24,15 @@ export default function Home() {
         >
           Paul Projects
         </Link>
+        <p className="text-xs text-gray-400">
+          <a className="underline hover:text-white" href="/terms">
+            Terms
+          </a>{" "}
+          ·{" "}
+          <a className="underline hover:text-white" href="/privacy">
+            Privacy
+          </a>
+        </p>
       </footer>
     </div>
   );

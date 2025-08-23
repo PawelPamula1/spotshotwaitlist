@@ -4,13 +4,16 @@
     "description": "Join the waitlist and be the first to explore hidden gems for your next trip"
   },
   "JoinForm": {
-    "placeholder": "Your Email",
-    "button": "Join the waitlist",
-    "success": "Thanks! You're on the list.",
+    "placeholder": "Enter your email",
+    "button": "Join waitlist",
+    "success": "Thanks! You're on the list 🎉",
     "error": {
-      "generic": "Something went wrong. Please try again."
-    }
+      "generic": "Something went wrong. Please try again.",
+      "accept": "Please accept the Terms and Privacy Policy."
+    },
+    "consent": "I agree to the <terms>Terms</terms> and <privacy>Privacy Policy</privacy>."
   },
+
   "Problem": {
     "headline1": "You’re on vacation. You look great. But…",
     "headline2": "where’s the perfect spot for a photo?",
@@ -55,5 +58,124 @@
   "JoinCTA": {
     "title": "Help Build the World's Biggest Photo Spot Map!",
     "subtitle": "Join the waitlist and be part of the community adding the very first spots before launch."
+  },
+
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: August 23, 2025",
+    "intro": "This Privacy Policy explains how PhotoSpots collects, uses, and protects personal data — including when you join the waitlist or use our mobile application.",
+    "who": {
+      "title": "Who is the controller?",
+      "body": "The data controller is PhotoSpots (personal project by Paweł Pamuła). For any privacy questions, email pawelpamula003@gmail.com."
+    },
+    "what": {
+      "title": "What data we collect",
+      "email": "Email address — when you join the waitlist to receive updates.",
+      "account": "Account data (app) — email, username, profile/avatar if you create an account.",
+      "content": "User content — spots you add (location, description, photos). Content may be public in the app.",
+      "location": "Approximate location — only if you choose to include it when creating a spot.",
+      "tech": "Technical data — basic usage analytics via PostHog and standard server logs for security."
+    },
+    "why": {
+      "title": "Why we process your data",
+      "provide": "Provide the service (waitlist, account, saving and displaying spots).",
+      "updates": "Send product updates if you join the waitlist.",
+      "security": "Maintain security and prevent abuse.",
+      "improve": "Improve the product and user experience (aggregated analytics)."
+    },
+    "legal": {
+      "title": "Legal bases (GDPR)",
+      "consent": "Consent — for waitlist emails and optional analytics where required.",
+      "contract": "Contract — processing necessary to provide the app features you request.",
+      "legit": "Legitimate interests — security, preventing abuse, product improvement."
+    },
+    "processors": {
+      "title": "Processors & recipients",
+      "supabase": "Supabase — authentication, database, and storage.",
+      "cloudinary": "Cloudinary — hosting and optimization of user photos.",
+      "posthog": "PostHog — privacy-friendly analytics for website/app usage.",
+      "note": "We do not sell your personal data. Processors act on our behalf under data processing agreements."
+    },
+    "retention": {
+      "title": "Data retention",
+      "body": "We keep personal data only as long as needed to provide the service or until you request deletion. Waitlist emails are kept until you unsubscribe or request removal. Account data and user content can be deleted when you delete your account (subject to backup/archival timelines)."
+    },
+    "rights": {
+      "title": "Your rights",
+      "access": "Access your data and receive a copy.",
+      "rectify": "Rectify inaccurate data.",
+      "delete": "Delete your data (“right to be forgotten”).",
+      "restrict": "Restrict or object to certain processing.",
+      "portability": "Data portability.",
+      "withdraw": "Withdraw consent at any time (e.g., unsubscribe from emails).",
+      "complaint": "Lodge a complaint with your supervisory authority.",
+      "contact": "To exercise your rights, email pawelpamula003@gmail.com."
+    },
+    "transfers": {
+      "title": "International transfers",
+      "body": "Some providers may store data outside your country. Where applicable, we rely on appropriate safeguards (e.g., standard contractual clauses)."
+    },
+    "security": {
+      "title": "Security",
+      "body": "We use reasonable technical and organizational measures to protect your data. No system is 100% secure, but we work to minimize risk (e.g., access controls, least privilege, encrypted transport)."
+    },
+    "children": {
+      "title": "Children",
+      "body": "PhotoSpots is not directed to children under 16. If you believe a child provided us data, contact us to remove it."
+    },
+    "changes": {
+      "title": "Changes to this policy",
+      "body": "We may update this policy from time to time. We will post changes here and update the date above."
+    },
+    "questions": "Questions? Email pawelpamula003@gmail.com."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: August 23, 2025",
+    "intro": "These Terms govern your access to and use of PhotoSpots’ website and mobile application. By using the service, you agree to these Terms. If you do not agree, do not use PhotoSpots.",
+    "service": {
+      "title": "Service description",
+      "body": "PhotoSpots helps users discover and save photography spots. Users may submit locations, descriptions, and photos that can be visible to others in the app."
+    },
+    "eligibility": {
+      "title": "Eligibility & accounts",
+      "age": "You must be at least 16 years old to use the service.",
+      "account": "You are responsible for your account and for keeping your login credentials secure.",
+      "delete": "You may delete your account at any time."
+    },
+    "content": {
+      "title": "User content & license",
+      "ownership": "You retain ownership of photos and content you upload.",
+      "license": "You grant PhotoSpots a non-exclusive, worldwide license to host, display, and distribute your content solely for operating and improving the service.",
+      "responsibility": "You must have the rights to the content you submit and ensure it does not violate laws or third-party rights.",
+      "removal": "We may remove content that violates these Terms or applicable law, or upon valid notice of infringement."
+    },
+    "prohibited": {
+      "title": "Prohibited activities",
+      "illegal": "Posting illegal, harmful, harassing, infringing, or deceptive content.",
+      "security": "Attempting to probe, scan, or compromise the service or other users.",
+      "scraping": "Scraping or bulk downloading without permission."
+    },
+    "safety": {
+      "title": "Safety & responsibility",
+      "body": "Locations shown in PhotoSpots may involve public or private property and varying conditions. You are solely responsible for your safety and compliance with local laws when visiting any location. PhotoSpots does not guarantee access, safety, or accuracy of any location."
+    },
+    "ip": {
+      "title": "Intellectual property",
+      "body": "PhotoSpots and associated logos, trademarks, and software are owned by their respective rights holders. These Terms do not grant you any rights to use our trademarks except as necessary to use the service."
+    },
+    "disclaimer": {
+      "title": "Disclaimer & limitation of liability",
+      "body": "The service is provided “as is” without warranties of any kind. To the fullest extent permitted by law, PhotoSpots is not liable for indirect, incidental, special, consequential, or punitive damages, or for loss of data, profits, or goodwill."
+    },
+    "changes": {
+      "title": "Changes to the service and terms",
+      "body": "We may modify or discontinue parts of the service at any time. We may update these Terms from time to time. We will post changes here and update the date above."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "Questions about these Terms? Email pawelpamula003@gmail.com."
+    },
+    "footer": "By continuing to use PhotoSpots, you agree to these Terms."
   }
 }
