@@ -32,7 +32,7 @@ const Hero = () => {
       {/* Top bar: logo + language switcher */}
       <div className="relative z-30 px-6 py-4 flex justify-between items-center">
         <span className="text-black text-xl md:text-2xl font-serif md:bg-transparent px-3 py-1 rounded md:rounded-none">
-          SpotShot
+          PhotoSpots
         </span>
         <LocaleSwitcher />
       </div>

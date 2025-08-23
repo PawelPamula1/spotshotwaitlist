@@ -15,7 +15,7 @@ export default function Home() {
       <JoinCTA />
 
       <footer className="py-10 text-center text-sm text-black">
-        SpotShot – The Travel Photo Spotting App <br />
+        PhotoSpots – The Travel Photo Spotting App <br />
         Created with <span className="inline-block">❤️</span> by{" "}
         <Link
           href="https://paulprojects.com"
