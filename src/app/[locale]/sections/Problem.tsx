@@ -49,7 +49,7 @@ const Problem = () => {
           <div className="flex justify-between w-full space-x-4">
             <div className="relative w-1/2 h-40">
               <Image
-                src="/problem/dubrovnik.jpg"
+                src="/problem/hollywood.jpg"
                 alt="Travel photo 4"
                 fill
                 className="object-cover rounded-lg shadow-md"
@@ -79,7 +79,7 @@ const Problem = () => {
             </div>
             <div className="relative w-full h-60">
               <Image
-                src="/problem/dubrovnik.jpg"
+                src="/problem/hollywood.jpg"
                 alt="Travel photo 4"
                 fill
                 className="object-cover rounded-lg shadow-md"
