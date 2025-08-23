@@ -54,6 +54,12 @@ const JoinButton = () => {
 
   const isDisabled = !email || !accepted;
 
+  const richMap: Record<string, (chunks: React.ReactNode) => React.ReactNode> =
+    {
+      terms: (chunks) => <a href="/terms">{chunks}</a>,
+      privacy: (chunks) => <a href="/privacy">{chunks}</a>,
+    };
+
   return (
     <form onSubmit={handleSubmit} className="mt-8 w-full max-w-xl mx-auto">
       {submitted ? (
@@ -98,30 +104,7 @@ const JoinButton = () => {
                 aria-required="true"
                 aria-invalid={!accepted}
               />
-              <span>
-                {t.rich("consent", {
-                  terms: (chunks: string) => (
-                    <a
-                      href="/terms"
-                      className="underline underline-offset-2 hover:text-black"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {chunks}
-                    </a>
-                  ),
-                  privacy: (chunks: string) => (
-                    <a
-                      href="/privacy"
-                      className="underline underline-offset-2 hover:text-black"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {chunks}
-                    </a>
-                  ),
-                })}
-              </span>
+              <span>{t.rich("consent", richMap)}</span>
             </label>
           </div>
 
